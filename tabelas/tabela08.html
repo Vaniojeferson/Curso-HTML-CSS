@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        th,td{
+            text-align: center;
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+        col#formatar{
+            background-color: burlywood;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <!-- processo pra selecionar uma coluna e fazer a formatação desejada 
+        pode ser usado uma id usa a tag span-->
+
+        <colgroup>
+            <col id="formatar">
+            <col id="">
+            <col id="">
+            <col id="">
+        </colgroup>
+        <tbody>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>idade</th>
+                <th>Profição</th>
+            </tr>
+
+            <tr>
+                <td>Carla</td>
+                <td>F</td>
+                <td>38</td>
+                <td>Professora</td>
+            </tr>
+
+            <tr>
+                <td>Madalena</td>
+                <td>F</td>
+                <td>29</td>
+                <td>Policial</td>
+            </tr>
+            <tr>
+                <td>Junior</td>
+                <td>M</td>
+                <td>41</td>
+                <td>Advogado</td>
+            </tr>
+
+            <tr>
+                <td>Herique</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Mecânico</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
